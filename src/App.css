@@ -26,10 +26,15 @@ h2 {
 
 .app {
   text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
+
 .grid-wrapper {
   width: 50%;
   margin: 0 auto;
+  flex: 1;
 }
 
 .app-header {
